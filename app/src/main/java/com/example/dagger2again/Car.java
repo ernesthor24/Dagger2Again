@@ -17,6 +17,11 @@ public class Car {
         this.wheels = new Wheels();
     }
 
+    @Inject
+    public void enableRemote(Remote remote) {
+        remote.setListener(this);
+    }
+
     void drive() {
         Log.d(TAG, "Driving...");
     }
