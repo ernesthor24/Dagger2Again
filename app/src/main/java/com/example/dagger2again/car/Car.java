@@ -1,4 +1,4 @@
-package com.example.dagger2again;
+package com.example.dagger2again.car;
 
 import android.util.Log;
 
@@ -22,7 +22,8 @@ public class Car {
         remote.setListener(this);
     }
 
-    void drive() {
+    public void drive() {
+        engine.start();
         Log.d(TAG, "Driving...");
     }
 }
