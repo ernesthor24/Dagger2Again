@@ -2,7 +2,7 @@ package com.example.dagger2again;
 
 import dagger.Component;
 
-@Component
+@Component (modules = WheelsModule.class)
 public interface CarComponent {
     Car getCar(); //gets the car constructor
 

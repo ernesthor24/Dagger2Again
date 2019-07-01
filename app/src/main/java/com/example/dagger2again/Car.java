@@ -13,8 +13,8 @@ public class Car {
 
     @Inject
     public Car(Engine engine, Wheels wheels) {
-        this.engine = new Engine();
-        this.wheels = new Wheels();
+        this.engine = engine;
+        this.wheels = wheels;
     }
 
     @Inject
