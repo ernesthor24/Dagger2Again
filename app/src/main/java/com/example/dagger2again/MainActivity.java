@@ -15,7 +15,7 @@ import javax.inject.Inject;
 public class MainActivity extends AppCompatActivity {
 
     @Inject
-    Car car;
+    Car car1, car2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,15 +23,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //replaces the constructor
-        CarComponent component = DaggerCarComponent.builder()
+        CarComponent component1 = DaggerCarComponent.builder()
                 .horsePower(150)
                 .engineCapacity(1400)
                 .build();
-        component.inject(this);
+        component1.inject(this);
+
+        CarComponent component2 = DaggerCarComponent.builder()
+                .horsePower(150)
+                .engineCapacity(1400)
+                .build();
+        component2.inject(this);
 
         //car = component.getCar(); //replaced by field injection
 
-        car.drive();
+
+
+        component1.getCar().drive();
+        component2.getCar().drive();
+
+        /* used when single component
+        car1.drive();
+        car2.driver();
+         */
 
     }
 }
