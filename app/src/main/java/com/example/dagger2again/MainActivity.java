@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         //replaces the constructor
         CarComponent component = DaggerCarComponent.builder()
-                .dieselEngineModule(new DieselEngineModule(100))
+                .horsePower(150)
+                .engineCapacity(1400)
                 .build();
         component.inject(this);
 
