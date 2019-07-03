@@ -17,8 +17,6 @@ i
 9app/src/main/java/com/example/dagger2again/car/Tires.java,3/a/3a70f7eb83170400c1b598f911cf8b028161005a
 j
 :app/src/main/java/com/example/dagger2again/car/Wheels.java,5/5/5558ee702c972d9162bdfcf59ac169798da547c1
-s
-Capp/src/main/java/com/example/dagger2again/dagger/CarComponent.java,3/8/38a46b1653956c13e1fa0a1f22d5547af6306b06
 y
 Iapp/src/main/java/com/example/dagger2again/dagger/DieselEngineModule.java,8/2/82e8ac87bee907d976ada9608954e0407f7ef4d5
 y
@@ -31,3 +29,15 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 j
 :app/src/main/java/com/example/dagger2again/car/Driver.java,e/7/e7a77d989ecc54bd219a70706cf9374f9da9be42
+r
+Bapp/src/main/java/com/example/dagger2again/dagger/PerActivity.java,7/a/7a13e2389046f36084ff51d8f746a16c50080411
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+s
+Capp/src/main/java/com/example/dagger2again/dagger/DriverModule.java,4/b/4baa7112a322004d3be6c4ccc9dd3d4a3c0dbeef
+s
+Capp/src/main/java/com/example/dagger2again/dagger/AppComponent.java,0/d/0d98bb8e019c19f66eb473796e89ed3c8e5875de
+x
+Happ/src/main/java/com/example/dagger2again/dagger/ActivityComponent.java,e/a/ea0fd942fd67bf3bbcfab1465859996c79fe080d
+j
+:app/src/main/java/com/example/dagger2again/ExampleApp.java,b/0/b09906b27608f5416216a6b0cc180fab3073b82c

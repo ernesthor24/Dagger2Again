@@ -1,10 +1,7 @@
 package com.example.dagger2again;
 
 import android.app.Application;
-
-import com.example.dagger2again.dagger.ActivityComponent;
 import com.example.dagger2again.dagger.AppComponent;
-import com.example.dagger2again.dagger.DaggerActivityComponent;
 import com.example.dagger2again.dagger.DaggerAppComponent;
 
 public class ExampleApp extends Application {
