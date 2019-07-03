@@ -3,11 +3,6 @@ package com.example.dagger2again.car;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-@Singleton
 public class Driver {
-
-    @Inject
-    public Driver() {
-
-    }
+    //we dont own
 }

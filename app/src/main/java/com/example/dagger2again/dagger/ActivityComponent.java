@@ -1,18 +1,20 @@
 package com.example.dagger2again.dagger;
 
+import android.os.Build;
+
 import com.example.dagger2again.car.Car;
 import com.example.dagger2again.MainActivity;
 
 import javax.inject.Named;
-import javax.inject.Singleton;
 
 import dagger.BindsInstance;
 import dagger.Component;
 
-@Singleton
+//@Singleton
+@PerActivity
 //@Component (modules = {WheelsModule.class, DieselEngineModule.class})
-@Component (modules = {WheelsModule.class, PetrolEngineModule.class})
-public interface CarComponent {
+@Component (dependencies = AppComponent.class, modules = {WheelsModule.class, PetrolEngineModule.class})
+public interface ActivityComponent {
     Car getCar(); //gets the car constructor
 
     void inject(MainActivity mainActivity); //injector field injection
@@ -26,6 +28,8 @@ public interface CarComponent {
         @BindsInstance
         Builder engineCapacity(@Named("engineCapacity") int engineCapacity);
 
-        CarComponent build();
+        Builder appComponent(AppComponent component);
+
+        ActivityComponent build();
     }
 }

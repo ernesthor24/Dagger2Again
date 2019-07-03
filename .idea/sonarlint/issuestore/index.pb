@@ -27,3 +27,7 @@ s
 Capp/src/main/java/com/example/dagger2again/dagger/WheelsModule.java,f/f/ff98d0320c552036a6d98b4df46bbaf53904aa33
 g
 7app/src/main/java/com/example/dagger2again/car/Car.java,5/f/5fd14c308d5634a1d00ac4b08a1beb69393e49e8
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+j
+:app/src/main/java/com/example/dagger2again/car/Driver.java,e/7/e7a77d989ecc54bd219a70706cf9374f9da9be42
